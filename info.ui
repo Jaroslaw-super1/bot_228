@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>15</number>
+     </property>
+     <property name="topMargin">
+      <number>15</number>
+     </property>
+     <property name="rightMargin">
+      <number>15</number>
+     </property>
+     <property name="bottomMargin">
+      <number>15</number>
+     </property>
+     <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Для начала работы необходимо подключить группу-бота 
+которая будет принимать заказы. 
+
+1)Для этого вставьте токен доступа и нажмите подключить. 
+После чего нажмите запустить бота откроется окно с ботом. 
+Если необходимо при закрытии окна бот будет выключен. 
+ 
+2)В разделе заказы будут отображатьсязаказанные товары,
+ а также id пользователей которые их заказали. 
+
+3) Вы можете сообщать пользователю о начале выполнения заказа, 
+ его окончании, а также можете отказать. Для этого
+выбирите заказ из списка и нажмите соответствующюю кнопку. 
+
+4) Для завершения выбирите пользователя и перейдите
+к нему в профиль для договора об оплате. 
+ После оплаты нажмите завершить. 
+
+ 5) Для добавления/удаления товаров введите
+ название и цену и нажмите соответствующюю кнопку</string>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+      <widget class="QPushButton" name="ok">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(85, 255, 127);</string>
+       </property>
+       <property name="text">
+        <string>Понятно</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

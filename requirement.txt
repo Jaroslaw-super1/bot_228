@@ -1,0 +1,4 @@
+webbrowser
+sqlite3
+vk_api
+PyQt5
